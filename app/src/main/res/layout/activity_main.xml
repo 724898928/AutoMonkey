@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:textSize="18sp"
+		android:textColor="#000000"
+		android:id="@+id/backTime"
+		android:visibility="gone"
+		android:text="@string/testre"
+		android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		/>
+
+
+	<LinearLayout
+		android:id="@+id/time"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		>
+        <TextView
+			android:id="@+id/selectTime"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/select_time" />
+        <LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+            <Spinner
+				android:entries="@array/select_hour_labels"
+				android:id="@+id/testHour"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:contentDescription="@string/select_hour" />
+            <Spinner
+				android:entries="@array/select_min_labels"
+				android:id="@+id/testMin"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:contentDescription="@string/select_min" />
+            <Spinner
+				android:entries="@array/select_sec_labels"
+				android:id="@+id/testSec"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:contentDescription="@string/select_sec" />
+        </LinearLayout>
+	</LinearLayout>
+
+        <Button
+			android:layout_below="@+id/time"
+			android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+			android:id="@+id/startBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/monkey_test" />
+
+</RelativeLayout>

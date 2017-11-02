@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aging Test</string>
+    <string name="monkey_test">Test start</string>
+    <string name="input_count">Input count(10000~1000000)</string>
+    <string name="ok">OK</string>
+    <string name="testre">Test Result</string>
+    <string name="cancel">Cancel</string>
+    <string name="max_toast">Maximum number of cycles shall be not more than 1000000</string>
+    <string name="stop">Stop</string>
+    <string name="back_time">The last test time:</string>
+    <string name="time_h">h</string>
+    <string name="time_m">m</string>
+    <string name="time_s">s</string>
+    <string name="select_hour">Select hour</string>
+    <string name="select_min">Select min</string>
+    <string name="select_sec">Select sec</string>
+    <string name="select_time">Please select test time</string>
+    <string name="select_all">Select All</string>
+
+    <string name="select_state">select state</string>
+    <string name="package_name">package name</string>
+    <string name="modoule_name">modoule name</string>
+    <string name="checkbox1">ignore-crashes</string>
+
+    <string name="checkbox2">ignore-timeout</string>
+    <string name="checkbox3">ignore-security-exceptions</string>
+    <string name="checkbox4">ignore-native-crashes</string>
+</resources>

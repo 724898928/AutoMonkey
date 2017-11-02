@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    android:installLocation="internalOnly"
+    android:versionCode="1"
+    android:versionName="1.4"
+    package="com.li.AgingTest"
+  >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INJECT_EVENT" />
+    <uses-permission android:name="android.permission.SET_ORIENTATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/test"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:label="@string/app_name"
+            android:name="com.li.AgingTest.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.li.AgingTest.MyFloatWindowService"
+            android:process=":float" />
+    </application>
+
+</manifest>

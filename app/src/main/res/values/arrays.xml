@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="select_hour_labels">
+        <item>0 hours</item>
+        <item>1 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>5 hours</item>
+        <item>6 hours</item>
+        <item>7 hours</item>
+        <item>8 hours</item>
+        <item>9 hours</item>
+        <item>10 hours</item>
+        <item>11 hours</item>
+        <item>12 hours</item>
+        <item>13 hours</item>
+        <item>14 hours</item>
+        <item>15 hours</item>
+        <item>16 hours</item>
+        <item>17 hours</item>
+        <item>18 hours</item>
+        <item>19 hours</item>
+        <item>20 hours</item>
+        <item>21 hours</item>
+        <item>22 hours</item>
+        <item>23 hours</item>
+        <item>24 hours</item>
+    </array>
+    <array name="select_hour_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </array>
+    <array name="select_min_labels">
+        <item>0 min</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>3 min</item>
+        <item>4 min</item>
+        <item>5 min</item>
+        <item>6 min</item>
+        <item>7 min</item>
+        <item>8 min</item>
+        <item>9 min</item>
+        <item>10 min</item>
+        <item>11 min</item>
+        <item>12 min</item>
+        <item>13 min</item>
+        <item>14 min</item>
+        <item>15 min</item>
+        <item>16 min</item>
+        <item>17 min</item>
+        <item>18 min</item>
+        <item>19 min</item>
+        <item>20 min</item>
+        <item>21 min</item>
+        <item>22 min</item>
+        <item>23 min</item>
+        <item>24 min</item>
+        <item>25 min</item>
+        <item>26 min</item>
+        <item>27 min</item>
+        <item>28 min</item>
+        <item>29 min</item>
+        <item>30 min</item>
+        <item>31 min</item>
+        <item>32 min</item>
+        <item>33 min</item>
+        <item>34 min</item>
+        <item>35 min</item>
+        <item>36 min</item>
+        <item>37 min</item>
+        <item>38 min</item>
+        <item>39 min</item>
+        <item>40 min</item>
+        <item>41 min</item>
+        <item>42 min</item>
+        <item>43 min</item>
+        <item>44 min</item>
+        <item>45 min</item>
+        <item>46 min</item>
+        <item>47 min</item>
+        <item>48 min</item>
+        <item>49 min</item>
+        <item>50 min</item>
+        <item>51 min</item>
+        <item>52 min</item>
+        <item>53 min</item>
+        <item>54 min</item>
+        <item>55 min</item>
+        <item>56 min</item>
+        <item>57 min</item>
+        <item>58 min</item>
+        <item>59 min</item>
+    </array>
+    <array name="select_min_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </array>
+    <array name="select_sec_labels">
+        <item>0 sec</item>
+        <item>1 sec</item>
+        <item>2 sec</item>
+        <item>3 sec</item>
+        <item>4 sec</item>
+        <item>5 sec</item>
+        <item>6 sec</item>
+        <item>7 sec</item>
+        <item>8 sec</item>
+        <item>9 sec</item>
+        <item>10 sec</item>
+        <item>11 sec</item>
+        <item>12 sec</item>
+        <item>13 sec</item>
+        <item>14 sec</item>
+        <item>15 sec</item>
+        <item>16 sec</item>
+        <item>17 sec</item>
+        <item>18 sec</item>
+        <item>19 sec</item>
+        <item>20 sec</item>
+        <item>21 sec</item>
+        <item>22 sec</item>
+        <item>23 sec</item>
+        <item>24 sec</item>
+        <item>25 sec</item>
+        <item>26 sec</item>
+        <item>27 sec</item>
+        <item>28 sec</item>
+        <item>29 sec</item>
+        <item>30 sec</item>
+        <item>31 sec</item>
+        <item>32 sec</item>
+        <item>33 sec</item>
+        <item>34 sec</item>
+        <item>35 sec</item>
+        <item>36 sec</item>
+        <item>37 sec</item>
+        <item>38 sec</item>
+        <item>39 sec</item>
+        <item>40 sec</item>
+        <item>41 sec</item>
+        <item>42 sec</item>
+        <item>43 sec</item>
+        <item>44 sec</item>
+        <item>45 sec</item>
+        <item>46 sec</item>
+        <item>47 sec</item>
+        <item>48 sec</item>
+        <item>49 sec</item>
+        <item>50 sec</item>
+        <item>51 sec</item>
+        <item>52 sec</item>
+        <item>53 sec</item>
+        <item>54 sec</item>
+        <item>55 sec</item>
+        <item>56 sec</item>
+        <item>57 sec</item>
+        <item>58 sec</item>
+        <item>59 sec</item>
+    </array>
+    <array name="select_sec_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </array>
+</resources>
